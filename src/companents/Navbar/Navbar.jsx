@@ -17,7 +17,7 @@ function Navbar() {
       name: `Hisob holati`,
       icon: 'bx bx-window',
       active: false,
-      pathName: '/',
+      pathName: 'hisob',
     },
     {
       id: 3,
@@ -38,14 +38,14 @@ function Navbar() {
       name: `Dars Jadvali`,
       icon: 'bx bx-calendar-edit',
       active: false,
-      pathName: '/',
+      pathName: 'dars',
     },
     {
       id: 6,
       name: `Hisobotlar`,
       icon: 'bx bxs-save',
       active: false,
-      pathName: '/',
+      pathName: 'hisobotlar',
     },
     {
       id: 7,
