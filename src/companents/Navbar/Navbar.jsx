@@ -59,7 +59,7 @@ function Navbar() {
       name: `Sozlanma`,
       icon: 'bx bxs-cog',
       active: false,
-      pathName: 'addTheacher',
+      pathName: 'sozlamar',
     },
     {
       id: 9,
