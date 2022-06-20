@@ -1,0 +1,143 @@
+.editTheach {
+  width: 100%;
+  height: auto;
+
+  &__main {
+    width: 100%;
+    height: 100%;
+    padding: 35px 55px;
+
+    h3 {
+      margin-bottom: 30px;
+    }
+  }
+  &__con-box {
+    width: 100%;
+    height: auto;
+    padding: 30px 45px;
+    background: #fff;
+  }
+  &__user-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  &__img-name-box {
+    width: auto;
+    display: flex;
+    align-items: center;
+    img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+    p {
+      font-size: 25px;
+      line-height: 25px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+  }
+  &__desc {
+    width: auto;
+    p {
+      font-size: 20px;
+      line-height: 20px;
+      color: #333;
+      margin-bottom: 5px;
+      font-weight: 600;
+
+      span {
+        color: #3335;
+      }
+    }
+  }
+  &__form {
+    width: 100%;
+  }
+  &__form-inps {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__inp-box {
+    width: 30%;
+    height: auto;
+    margin-bottom: 35px;
+
+    input {
+      width: 100%;
+      border: none;
+      outline: none;
+      font-size: 22px;
+      line-height: 22px;
+      color: #333;
+      background: transparent;
+      border-bottom: 3px solid #3332;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 16px;
+      color: #3339;
+      padding-left: 10px;
+    }
+  }
+  &__groups-money {
+    width: 390px;
+
+    div {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      padding: 15px;
+      background: rgba(191, 191, 191, 0.204);
+
+      .guruh,
+      .fani,
+      .money {
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 600;
+        color: rgba(137, 135, 135, 0.803);
+        margin-right: 25px;
+      }
+      .fani {
+        color: #333;
+      }
+      .money {
+        font-weight: 500;
+        color: rgb(108, 183, 215);
+      }
+    }
+    button {
+      position: relative;
+      border: none;
+      background: transparent;
+      color: #333;
+      padding-left: 60px;
+      margin-bottom: 20px;
+
+      i {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%);
+        font-size: 50px;
+        line-height: 40px;
+        color: rgb(94, 157, 88);
+      }
+    }
+  }
+  &__form-btns {
+    width: auto;
+    margin-left: auto;
+    text-align: right;
+  }
+}

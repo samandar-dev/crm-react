@@ -1,0 +1,76 @@
+.groups {
+  width: 100%;
+  &__main {
+    width: 100%;
+    padding: 20px 45px;
+  }
+  &__title-form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  &__add-box {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  &__title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  &__form {
+    display: flex;
+    align-items: center;
+  }
+  &__tabel {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding: 10px;
+  }
+  .table__avatar-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .table__name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .table__eror_btn,
+  .table__edit,
+  .table__remov {
+    border: none;
+    font-size: 25px;
+    line-height: 25px;
+    background: transparent;
+    margin: 0 5px;
+  }
+}
+.theacher__box {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 18px;
+    color: #333;
+  }
+}

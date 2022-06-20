@@ -1,0 +1,55 @@
+.theacher {
+  width: 100%;
+
+  &__main {
+    width: 100%;
+    padding: 30px 45px;
+  }
+  &__add-box {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  &__title-form {
+    display: flex;
+    align-items: center;
+  }
+  &__title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  &__form {
+    display: flex;
+    align-items: center;
+  }
+  .theacher__tabel {
+    width: 100%;
+    height: auto;
+    background: #fff;
+  }
+  .table__avatar-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .table__name {
+    display: flex;
+    align-items: center;
+  }
+  .table__eror_btn,
+  .table__edit,
+  .table__remov {
+    border: none;
+    font-size: 25px;
+    line-height: 25px;
+    background: transparent;
+    margin: 0 5px;
+  }
+}

@@ -1,0 +1,41 @@
+.navbarr {
+  position: relative;
+  width: 15%;
+  height: 100vh;
+  background: #fff;
+  box-shadow: 2px 1px 5px 5px #3333;
+  z-index: 10;
+
+  &__title-box {
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background: #3b86ff;
+    justify-content: space-between;
+
+    h3 {
+      color: #fff;
+      font-size: 22px;
+      line-height: 30px;
+    }
+    button {
+      border: none;
+      color: #fff;
+      font-size: 28px;
+      line-height: 25px;
+      background: transparent;
+    }
+  }
+  &__nav {
+    width: 100%;
+    height: auto;
+    &__list {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+  }
+}
