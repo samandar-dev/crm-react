@@ -66,7 +66,7 @@ function Navbar() {
       name: `Log Out`,
       icon: 'bx bx-log-in',
       active: false,
-      pathName: '/edit/:id',
+      pathName: 'log',
     },
   ]
   const [navBtns, setNavBtns] = useState([...btns])
